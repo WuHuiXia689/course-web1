@@ -1,0 +1,214 @@
+/*总体部分*/
+*{
+	font-size: 12px;
+	color:#522a06;
+	padding: 0px;
+	margin: 0 auto;
+}
+img{
+	border: 0px;
+}
+ul{
+	list-style-type: none;
+}
+a:link{
+	text-decoration: none;
+	color: #522a06;
+
+}
+a:hover{
+	text-decoration: underline;
+	color: #522a06;
+}
+body{
+	margin: 0 auto;
+	background-repeat: repeat-x;  
+	background-image: url(images/background1.png);
+	background-size: 1366px 1400px;
+	background-position: top center;
+	opacity: 0.5px;
+	width: 1345px;
+	overflow-x: hidden;
+}
+
+/*页头部分*/
+
+/*导航栏*/
+#banner span{
+	font-style: Helvetica;
+	font-size:50px;
+}
+#logo{
+	width: 80px;
+	height: 80px;
+	margin-left: 0px;
+	margin-top: 13px; 
+}
+#login{
+	width: 50px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 0px;
+}
+.nav{
+	margin-top: 20px;
+}
+.nav_content{
+	margin: 0 auto；
+	margin-left:300px;
+}
+div ul{
+	margin-left: 400px;
+}
+.nav_content ul li{
+ 	background-color: #bebebe;
+	width: 120px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+}
+.nav_content a{
+	text-decoration: none;
+/*	color: white;
+*/	display: block;
+	font-weight: bold;
+	padding: 5px;
+
+}
+ul li a:hover{
+	text-decoration: none;
+	background-color:#cc0000;
+}
+.nav_search{
+	margin-right: 5px;
+	float: right;
+}
+#input_text{
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;
+/*	margin-right: 5px;
+*/	border-radius: 15px;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;
+	border-width: 2px;
+	border-color: #888;
+	padding-left: 20px;
+	outline: none;
+}
+a input{
+		width: 60px;
+		height: 20px;
+		float: right;
+		color: #888;
+		text-align: center;
+		border-radius: 15px;
+		margin-right: 5px; 
+}
+/*#input_text input[type="text"]{
+	width: 150px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 6px;
+	border-width: 2px;
+	border-radius: 10px;
+	float: left;
+}*/
+#input_button{
+	width: 60px;
+	height: 20px;
+	margin-right: 50px;
+	margin-top: 7px;
+}
+
+/*主体部分*/
+.content{
+	width: 1266px;
+	height: 700px;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+#bread{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 43px;
+	color: black;
+	margin-top: 0px;
+}
+#bread a{
+	display: inline;
+	color: black;
+}
+#left{
+	width: 400px;
+	height: 340px;
+	margin-right: 0px;
+/*	border: 1px solid black;
+*/	float: left;
+}
+#left img{
+	width: 380px;
+	height: 260px;
+	margin-top: 0px;
+}
+#l_span{
+	text-align: center;
+	margin-left: 150px;
+	font-size: 20px;
+	line-height: 40px;
+}
+#span{
+	margin-left:0px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#right{
+	margin-right: 80px;
+	line-height: 25px;
+	font-size: 16px;
+	color:black;
+}
+#S{
+	line-height: 10px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+#S span{
+	font-weight: bolder;
+}
+#comments{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#F span{
+	font-size: 20px;
+	color:black
+}
+/*页脚部分*/
+.footer{
+	height: 105px;
+	clear: both;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+}
+#footer_z{
+	margin-left: 300px;
+}
+#footer_a{
+	width: 50px;
+	height: 26px;
+	margin-left:50px;
+	margin-right: 0px;
+	float: left;
+}
+#footer_d{
+	width: 1000px;
+	float: left;
+}
